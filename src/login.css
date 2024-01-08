@@ -1,0 +1,88 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+}
+.login-form{
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 450px;
+    height: 90%;
+    max-height: 342px;
+    border-radius: 20px;
+}
+.login-form .heading{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 9px 14px;
+    color: #111;
+}
+.login-form .form-input{
+    margin: 26px 1px 20px 0px;
+}
+.login-form .form-input label{
+    display: block;
+    margin-right: 161px;
+    font-size: 20px;
+}
+.login-form .captcha label{
+    font-size: 20px;
+    margin-right: 178px;
+}
+.login-form .form-input input{
+    width: 69%;
+    font-size: 17px;
+    padding: 10px 10px 10px 7px;
+    border: solid 1px #888;
+}
+.login{
+    font-size: 15px;
+    width: 70%;
+    padding: 10px;
+    text-transform: uppercase;
+    background: #4c81ff;
+    color: #fff;
+}
+.login-form .captcha .preview{
+    color: #555;
+    width: 69%;
+    border: solid 1px #888;
+    text-align: center;
+    margin: 0px 0px 0px 70px;
+    height: 38px;
+}
+.login-form .captcha .captcha-form{
+    display: flex;
+}
+.login-form .captcha input{
+    width: 60%;
+    font-size: 15px;
+    padding: 10px;
+}
+.login-form .captcha .captcha-refresh{
+    font-size: 19px;
+    padding: 6px 9px 9px 9px;
+    border: none;
+    outline: none;
+    background-color: #888;
+    color: #eee;
+    cursor: pointer;
+}
+/* .form-input{
+    font-family: 'Roboto', sans-serif;
+} */
+
